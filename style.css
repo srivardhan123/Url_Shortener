@@ -1,0 +1,99 @@
+*{
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+body{
+    background-color: rgb(23, 157, 157);
+}
+
+
+.main{
+    /* background-color: rgb; */
+    background-color: rgba(1,1,0,0.3);
+    height:500px;
+    width:500px;
+    position:relative;
+    top: 50%;
+    left:50%;
+    transform:translate(-50%,30%);
+    border: 2px solid rgb(73, 255, 225);
+    border-radius: 5px;
+}
+
+#longurl{
+    position:relative;
+    top: 40%;
+    left:15%;
+    border: 2px solid black;
+    border-radius: 10px;
+    width:50%;
+    height:6%;
+}
+
+#shorten
+{
+    position:relative;
+    top: 40%;
+    left:25%;
+    width:18%;
+    height:6%;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: white;
+}
+
+#shorten:hover{
+    background-color:aqua;
+    color:black;
+}
+
+#shorturl{
+    position:relative;
+    top: 50%;
+    left:15%;
+    border: 2px solid black;
+    border-radius: 10px;
+    width:77%;
+    height:6%;
+}
+
+#copy{
+    position:relative;
+    top: 52%;
+    left:3%;
+    width:10%;
+    height:5%;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: white;
+}
+
+#copy:hover{
+    background-color:aqua;
+    color:black;
+}
+
+h1{
+    position: relative;
+    left:25%;
+    top:25%;
+    color:rgb(25,22,134);
+}
+
+#display{
+    position:relative;
+    top:55%;
+    left:40%;
+    color: red;
+    font-size: larger;
+}
+
+
+#image{
+    position: relative;
+    top:25%;
+    left:40%;
+}
